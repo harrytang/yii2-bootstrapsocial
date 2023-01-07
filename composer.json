@@ -1,0 +1,25 @@
+{
+  "name": "harrytang/yii2-bootstrapsocial",
+  "description": "Yii2 Bootstrap Social",
+  "type": "yii2-extension",
+  "keywords": [
+    "yii2",
+    "extension"
+  ],
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Harry Tang",
+      "email": "giaduy@gmail.com"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "*",
+    "bower-asset/bootstrap-social": "4.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "harrytang\\bootstrapsocial\\": ""
+    }
+  }
+}
